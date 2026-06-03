@@ -1,0 +1,36 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Variáveis de ambiente
+.env
+
+# Cache Python
+__pycache__/
+*.py[cod]
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Arquivos temporários
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Cache de ferramentas
+.pytest_cache/
+.mypy_cache/
+
+# Dados gerados (caso você grave arquivos)
+storage/*.csv
+storage/*.xlsx
+storage/*.parquet
+storage/*.db
